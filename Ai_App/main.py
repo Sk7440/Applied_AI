@@ -1,1 +1,1 @@
-print("Sab di maa aa gai h ")
+print("AI Application initialized successfully.")
