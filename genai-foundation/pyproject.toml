@@ -1,0 +1,18 @@
+[project]
+name = "genai-foundations"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sk7440", email = "sultankhalid1007@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "ipykernel>=7.4.0",
+    "langchain>=1.4.3",
+    "langchain-ollama>=1.1.0",
+    "python-dotenv>=1.2.4",
+]
+
+
