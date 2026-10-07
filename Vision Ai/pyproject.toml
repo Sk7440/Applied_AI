@@ -3,6 +3,11 @@ name = "vision-ai"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
+dependencies = [
+    "labelimg>=1.8.6",
+]
+[tool.uv]
+environments = ["sys_platform == 'win32' and platform_machine == 'AMD64'"]
 authors = [
     { name = "Sk7440", email = "sultankhalid1007@gmail.com" }
 ]
